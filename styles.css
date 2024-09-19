@@ -1,0 +1,104 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: 'Arial', sans-serif;
+    background-color: #E0F7FA; /* Fundo suave com tom verde-água */
+}
+
+header {
+    background-color: #00796B; /* Verde escuro remetendo a uniformes de enfermagem */
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    border-bottom: 4px solid #B2DFDB; /* Detalhe de linha suave */
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    height: calc(100% - 160px);
+    background-color: #E0F7FA;
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    gap: 60px;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+
+.description {
+    flex: 1;
+    font-size: 1.5em;
+    color: #004D40; /* Verde escuro para o texto */
+    line-height: 1.6;
+    max-width: 500px;
+    border: 2px solid #B2DFDB; /* Borda verde-claro suave */
+    padding: 20px;
+    border-radius: 8px;
+    background-color: rgba(255, 255, 255, 0.9); /* Fundo branco semi-transparente */
+}
+
+.video-thumbnail {
+    transition: transform 0.3s ease;
+}
+
+.video-main img {
+    width: 60%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+footer {
+    background-color: #00796B;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    box-sizing: border-box;
+    border-top: 4px solid #B2DFDB;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+
+.footer-links a {
+    flex: 1;
+    text-decoration: none;
+    margin: 0 5px;
+}
+
+.footer-links img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.footer-links img:hover {
+    transform: scale(1.1);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.5);
+}
